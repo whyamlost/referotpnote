@@ -43,8 +43,8 @@ from telegram.ext import (
 # ============================================================
 # CONFIG
 # ============================================================
-BOT_TOKEN = "apna bot token dalo "
-ADMIN_IDS = [apna admin id]
+BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN", "")
+ADMIN_IDS = 5983584180
 
 logging.basicConfig(
     level=logging.INFO,
@@ -88,10 +88,7 @@ ACCESS_CHECK_INTERVAL = 30
 ADMIN_DEVICE_REFRESH_INTERVAL = 180
 
 DEFAULT_CHANNELS = [
-    {"id": "@axxuloots", "label": "@axxuloots", "url": "https://t.me/axxuloots"},
-    {"id": "@KALUASC", "label": "@KALUASC", "url": "https://t.me/KALUASC"},
-    {"id": "@X00MTSxKIDS", "label": "@X00MTSxKIDS", "url": "https://t.me/X00MTSxKIDS"},
-    {"id": "@vishalxupdate", "label": "@vishalxupdate", "url": "https://t.me/vishalxupdate"},
+    {"id": "@hhhbjbkhon", "label": "@hhhbjbkhon", "url": "https://t.me/hhhbjbkhon"},
 ]
 
 
