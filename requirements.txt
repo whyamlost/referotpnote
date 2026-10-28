@@ -1,1 +1,3 @@
-fastapi\nuvicorn[standard]\nrequests\n
+fastapi
+uvicorn[standard]
+requests
